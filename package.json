@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/dsanderson90/node0719/issues"
   },
-  "homepage": "https://github.com/dsanderson90/node0719#readme"
+  "homepage": "https://github.com/dsanderson90/node0719#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "lodash": "^4.17.14"
+  }
 }
