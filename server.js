@@ -1,17 +1,43 @@
+"use strict"
+
+// let arr = [1, 2, 3, 4]
+
+// debugger;
+
+// let mapd = arr.map( e => {
+//   return e + e;
+// });
+
+// console.log(mapd);
+
+
+//  Streams in Node
+//  [1, 2, 3, 4] like an array, but available over time in chunks (i.e 64kb at a time).
+//  What are streams good for?
+//  Good if you have huge amts of data you need to process
+//  Advice: Use streams all the time, bc you never know when the Data is going to grow
+//  Steams are like pipes
+//  zip and crypto are examples of streams
+//  read, write, transform (the most interesting stream)
+//  cluster gives you a way to load balance your processes
+//  cluster/pm2 is a useful wrapper for using cluster
+
 // import util from 'util'
 
 // import {exec} from 'child_process';
-import EventEmitter from 'events';
+// import EventEmitter from 'events';
+// import { Server } from 'tls';
 
-const eventEmitter = new EventEmitter();
+// const eventEmitter = new EventEmitter();
 
-eventEmitter.on('change', () => {
-  console.log('Something has changed')
-})
+// eventEmitter.on('change', () => {
+//   console.log('Something has changed')
+// })
 
-setInterval(() => {
-  eventEmitter.emit('change');
-}, 1000);
+// setInterval(() => {
+//   eventEmitter.emit('change');
+// }, 1000);
+
 
 
 //  Error First Callback Pattern
